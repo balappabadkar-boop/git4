@@ -1,0 +1,11 @@
+name : Github 
+on:
+  push:
+    branches: [main]
+ jobs:
+   demo:
+     runs-on : ubuntu-latest
+     steps:
+      - name : chekout repository
+        run : echo "test.java"
+
